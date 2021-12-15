@@ -6,9 +6,13 @@ use Illuminate\Support\Facades\Http;
 /**
  * 
  * @author ivannofick
+ * 
+ * helper custom Query using Elastic search
+ * 
+ * you can use it, just call class it on a controller
  * ruangapp.com
  */
-class CustomApiElastic
+class CustomApiEsV7
 {
   public function createIndex($idIndex, $data, $index)
   {
